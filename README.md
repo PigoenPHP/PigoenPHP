@@ -1,2 +1,3 @@
 ### PigoenPHP
-A simple Web Socket Message
+Simply sent your message to others.
+
