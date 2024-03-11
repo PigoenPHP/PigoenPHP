@@ -1,0 +1,31 @@
+{
+    "name": "pigoenphp/pigoenphp",
+    "type": "library",
+    "require": {
+        "react/socket": "^1.15",
+        "react/event-loop": "^1.5",
+        "react/stream": "^1.3",
+        "react/http": "^1.9",
+        "guzzlehttp/psr7": "^2.6"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pigoenphp\\Pigoenphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CodeWithSushil",
+            "email": "sushilkumbhar77@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
