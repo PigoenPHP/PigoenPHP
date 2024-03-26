@@ -16,4 +16,6 @@ $dotenv->safeLoad();
 
 $DB_PATH = $_ENV['path'];
 
+public $table="users";
+
 // }
