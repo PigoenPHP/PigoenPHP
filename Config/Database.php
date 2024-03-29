@@ -1,14 +1,21 @@
 <?php
-namespace Config;
-use Env;
+//namespace Config;
+//use Env;
+require "../vendor/autoload.php";
 
-class Database
-{
-  private string $host = "localhost:";
-  private string $user = "";
-  private string $pass = "";
-  private string $dbname = "";
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->safeLoad();
 
-  echo "<pre>";
-  print_r($_ENV);
-}
+//class Database
+//{
+  // private string $host = "localhost:";
+  // private string $user = "";
+  // private string $pass = "";
+  // private string $dbname = "";
+
+
+$DB_PATH = $_ENV['path'];
+
+public $table="users";
+
+// }
