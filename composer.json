@@ -41,8 +41,5 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
-    },
-    "scripts": {
-      "serve": "php -S localhost:8000"
     }
 }
