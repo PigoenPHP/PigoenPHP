@@ -13,3 +13,6 @@ if($_SERVER['REQUEST_URI'] == "/" && $_SERVER['REQUEST_METHOD'] == "GET"){
   echo "404 - Page not Found.";
 }
 
+?>
+
+<link rel="stylesheet" href="https://www.jsdelivr.com/package/npm/bulma">
