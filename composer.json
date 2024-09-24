@@ -25,7 +25,8 @@
         "symfony/process": "^7.1",
         "symfony/string": "^7.1",
         "sebastian/comparator": "^5.0",
-        "symfony/polyfill-php81": "^1.30"
+        "symfony/polyfill-php81": "^1.30",
+        "nikic/php-parser": "^5.2"
     },
     "require-dev": {
         "pestphp/pest": "^2.34",
