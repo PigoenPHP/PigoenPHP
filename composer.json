@@ -2,7 +2,9 @@
     "name": "pigoenphp/pigoenphp",
     "type": "project",
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "phpmailer/phpmailer": "^6.9",
+        "cboden/ratchet": "^0.4.4"
     },
     "license": "MIT",
     "autoload": {
@@ -23,5 +25,11 @@
         }
     ],
     "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.3"
     }
 }
