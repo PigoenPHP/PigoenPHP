@@ -1,3 +1,4 @@
-/vendor
-/app
-/.env
+/vendor/
+/database/
+/public/assets/images/
+.env
