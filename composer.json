@@ -4,7 +4,9 @@
     "require": {
         "php": "^8.0",
         "phpmailer/phpmailer": "^6.9",
-        "cboden/ratchet": "^0.4.4"
+        "cboden/ratchet": "^0.4.4",
+        "doctrine/dbal": "^4.2",
+        "doctrine/orm": "^3.3"
     },
     "license": "MIT",
     "autoload": {
