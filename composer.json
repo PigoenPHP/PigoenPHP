@@ -36,6 +36,6 @@
         }
     },
     "require-dev": {
-        "pestphp/pest": "^3.3"
+        "pestphp/pest": "^3.5"
     }
 }
